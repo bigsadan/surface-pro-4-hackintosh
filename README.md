@@ -1,5 +1,16 @@
 # surface-pro-4-hackintosh-10.14.3
 Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决所有问题，近乎完美
+## Update 2019.04.17
+* 更新voodooi2c至最新2.1.5版本
+* 增加hidpi自定义分辨率：默认的分辨率为1368 * 912 hidpi，显示效果不错但是可视面积较小，添加了几个等比缩放的HIDPI分辨率
+* 注意：调整分辨率可能导致黑屏，后果自负哦。。请三思而后行！！！如黑屏，需要外接显示器，然后装上TEAMVIEWER，断开外接显示器，重启后用手机通过teamviewer连上，改回正确分辨率即可恢复正常。
+* 具体步骤如下：
+* 1、执行以下命令确保成功。
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES
+* 2、将DisplayVendorID-4C83.zip 解压，得到一个文件夹，文件夹里面有一个文件，获取你显示器的VendorID 和 ProductID（hackintool中可看到或获取你显示器的EDID查看），将文件夹名称后四位改成你的vendorId（后四位），文件名后四位改成你的productId（后四位)，复制到/System/Library/Displays/Contents/Resources/Overrides/
+* 3、安装RDM，选择你需要的分辨率即可（有闪电标志的为HIDPI）。
+* 分辨率添加方法说明：用PlistEdit Pro打开上述2中的文件，展开scale-resolutions，添加子键，类型为Data，值有四组8位的十六进制，每组计算的结果不足八位在前面补0，如添加1440 * 960 HIDPI分辨率，将1440 * 2十进制转换成十六进制得出 0xB40，960 * 2 由十进制转换成十六进制得出 0x780，则该分辨率对应的值为：00000B40 00000780 00000001 00200000
+* SP4的物理分辨率2736 * 1824，等比缩放的常见分辨率有：1920 * 1280    1600 * 1066    1440 * 960，我附件中的文件己添加部分hidpi，大家可以根椐需要自行换算和添加，在尝试几组后，1440 * 960比较能接受，1600 * 1066也还好，再往上太小且有卡顿不推荐。
 ## 配置信息
 * CPU：i5-6300U
 * 内存：8GB
