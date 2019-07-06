@@ -3,6 +3,7 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 ## Update 10.14.5
 * 更新clover及kext至最新版本
 * 适配10.14.5,使用install.plist安装，安装完成后重建缓存，再切换成config.plist
+![mojave10.14.5](https://github.com/bigsadan/surface-pro-4-hackintosh-10.14.3/blob/master/screenshot/10.14.5.jpg)
 ## Update 2019.04.17
 * 更新voodooi2c至最新2.1.5版本
 * 增加hidpi自定义分辨率：
