@@ -4,6 +4,8 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * 更新clover及kext至最新版本；
 * 适配10.14.5,使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
 * 1600x1066 hidpi分辨率使用稳定，没有10.14.3中的花屏和睡眠缩放问题，voodooi2c使用2.1.5版本。
+* 从10.14.3升级的机友，先直接升至10.14.5，用install.plist进入后，再使用新的clover文件（保险起见，不要覆盖，删除掉原有的，拷贝新的clover），重启后使用install.plist进入系统，重建缓存，再用新的config.plist进入系统
+* 截图
 ![mojave10.14.5](https://github.com/bigsadan/surface-pro-4-hackintosh/blob/master/screenshot/mojave10.14.5.png)
 ## Update 2019.04.17
 * 更新voodooi2c至最新2.1.5版本
