@@ -1,5 +1,9 @@
 # surface-pro-4-hackintosh-10.14.x
 Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决所有问题，近乎完美
+## Update 10.14.6
+* 更新了clover文件至5018，文件结构发生了变化；
+* 使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
+* clover文件夹请勿覆盖，直接删除原有目录，拷贴新的完整的clover文件；
 ## Update 10.14.5
 * 更新clover及kext至最新版本；
 * 适配10.14.5,使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
