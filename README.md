@@ -4,7 +4,8 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * 感谢补丁作者FireWolf（surface系列作者救星啊）。
 * clover文件请勿覆盖，删除原来的，拷贝整个新的clover文件夹；
 * 用configIs.plist安装并进入系统（不行的话尝试sp4-install.plist），重建缓存；
-* 重启后用正常config.plist进入系统，成功驱动；
+* 重启后用正常config.plist进入系统，成功驱动； 
+* 无线网卡驱动地址：https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases， 用原来的驱动其实也可以，提示不兼容的时候用hackintool禁用Gatekeeper功能再安装应该就可以了。
 ## Update 10.14.6
 * 更新了clover文件至5018，文件结构发生了变化；
 * 使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
