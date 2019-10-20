@@ -6,6 +6,7 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * 用configIs.plist安装并进入系统（不行的话尝试sp4-install.plist），重建缓存；
 * 重启后用正常config.plist进入系统，成功驱动； 
 * 无线网卡驱动地址：https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases 
+* surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 ## Update 10.14.6
 * 更新了clover文件至5018，文件结构发生了变化；
 * 使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
