@@ -1,12 +1,16 @@
 # surface-pro-4-hackintosh-10.14.x-10.15.x （surface book 1)
 Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决所有问题，近乎完美
+## surface book
+* surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
+## Update 10.15.1
+* 10.15.1补丁地址不变，更改config.plist matchos 为10.15.1，直接升级即可
 ## Update 10.15
 * 感谢补丁作者FireWolf（surface系列救星啊）。
 * clover文件请勿覆盖，删除原来的，拷贝整个新的clover文件夹；
 * 用configIs.plist安装并进入系统（不行的话尝试sp4-install.plist），重建缓存；
 * 重启后用正常config.plist进入系统，成功驱动； 
 * 无线网卡驱动地址：https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases 
-* surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
+
 ## Update 10.14.6
 * 更新了clover文件至5018，文件结构发生了变化；
 * 使用install.plist安装，安装完成后重建缓存，再切换成config.plist；
