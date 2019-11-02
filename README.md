@@ -1,7 +1,8 @@
 # surface-pro-4-hackintosh-10.14.x-10.15.x （surface book 1)
 Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决所有问题，近乎完美
-## surface book
+## Surface Book
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
+* 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 ## Update 10.15.1
 * 10.15.1补丁地址不变，更改config.plist matchos 为10.15.1，直接升级即可
 ## Update 10.15
