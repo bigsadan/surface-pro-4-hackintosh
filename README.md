@@ -3,6 +3,10 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 ## Surface Book
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
+
+## 10.15.4
+下载 config10.15.4.plist 替换即可
+voodooi2c 2.4.2 变动太大，修改编绎到是没问题，但触控板用不了，试了下官方release的也一样，有时间了再研究下吧。
 ## Update 10.15.1
 * 10.15.1补丁地址不变，更改config.plist matchos 为10.15.1，直接升级即可
 ## Update 10.15
