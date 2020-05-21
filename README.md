@@ -4,6 +4,9 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
+##openCore
+转成oc引导，显卡无法驱动，patch补丁不生效，原因未知，其余的一切都正常，有时间再尝试一下。。
+
 ## 10.15.4
 下载 config10.15.4.plist 替换即可；
 
