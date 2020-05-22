@@ -5,7 +5,7 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
 ## openCore
-转成oc引导，显卡无法驱动，patch补丁不生效，原因未知，其余的一切都正常，有时间再尝试一下。。
+OC引导成功，显卡电池触控版等都正常，目前还有亮度，电源管理等待完善，大家耐心等待下吧。。
 
 ## 10.15.4
 下载 config10.15.4.plist 替换即可；
