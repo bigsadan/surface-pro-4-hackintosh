@@ -5,7 +5,8 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
 ## openCore
-OC引导成功，显卡电池触控版等都正常，目前还有亮度，电源管理等待完善，大家耐心等待下吧。。
+打包正常使用的10.15.4 CLOVER（更换OC前备份的）
+OC0.5.8引导己上传，己正常使用，和CLOVER使用效果没什么区别，并未感觉启动快，不过是趋势。以后就不再更新CLOVER了。。
 
 ## 10.15.4
 下载 config10.15.4.plist 替换即可；
