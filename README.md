@@ -4,9 +4,10 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
-## openCore
-打包正常使用的10.15.4 CLOVER（更换OC前备份的）
-OC0.5.8引导己上传，己正常使用，和CLOVER使用效果没什么区别，并未感觉启动快，不过是趋势。以后就不再更新CLOVER了。。
+## 2020.5.23 Update openCore
+* 打包正常使用的10.15.4 CLOVER（更换OC前备份的）
+* OC0.5.8引导己上传，己正常使用，和CLOVER使用效果没什么区别，并未感觉启动快，不过是趋势。以后就不再更新CLOVER了。
+* 没太多精力讲述细节（懒），大家自行讨论吧。
 
 ## 10.15.4
 下载 config10.15.4.plist 替换即可；
