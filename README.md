@@ -4,6 +4,11 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
+## 2020.5.29
+* voodooi2c 2.4.2 己成功使用，进一步测试后放出。。。
+* use SMCBatteryManager instead of ACPIBatteryManager， need patch dsdt.
+* Update all kexts to latest version.
+
 ## 10.15.5 openCore
 * OC - config.plist中将frambuffer补丁的最大内核由以前19.4.0改成19.5.0即可。
 
