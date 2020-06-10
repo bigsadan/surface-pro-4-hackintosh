@@ -3,6 +3,8 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 ## Surface Book
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
+## 2020.06.10
+* update config.plist，剔除了不必要补丁，提升了系统运行流畅度
 
 ## 10.15.5 openCore
 * openCore 0.5.9
