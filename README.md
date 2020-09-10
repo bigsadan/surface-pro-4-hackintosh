@@ -3,6 +3,10 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 ## Surface Book
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
+
+## 2.4.4 voodooi2c
+* 2.4.2有点问题，触控板偶尔突然罢工，更新到2.4.4后目前还没出现，2.4以前的版本不太灵敏，使用感受不好（比如说三指全屏应用间切换经常识别错误）。
+
 ## 2020.06.10
 * update config.plist，剔除了不必要补丁，提升了系统运行流畅度
 
