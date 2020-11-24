@@ -4,6 +4,11 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * surface book 1 可下载 DSDT For SurfaceBook1.zip中的aml替换，解决双电池问题（https://github.com/BAByte/SurfaceBook-Hackintosh） ；
 * 参照源贴： https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
 
+## Bigsur
+* 总结下内屏点亮重点: AAPL,ig-platform-id（16590000）从10.14起都必须要用KBL了，framebuffer-stolenmem（0000A001）；
+* 外接输出按网上教程根椐自己需求设置framebuffer-conX，设置属性或alldata方法都可以；
+* sp5，sp6等应该同理，看来短期内sp系列都可以无缝升级了，感谢不断尝试的机友们；
+
 ## 2.4.4 voodooi2c
 * 2.4.2有点问题，触控板偶尔突然罢工，更新到2.4.4后目前还没出现，2.4以前的版本不太灵敏，使用感受不好（比如说三指全屏应用间切换经常识别错误）。
 
