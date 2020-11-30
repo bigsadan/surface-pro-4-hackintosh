@@ -11,7 +11,7 @@ Perfect! 除全球无解的触摸屏，内置WIFI蓝牙摄像头外，己解决�
 * **双系统引导：**
     * 使用：rEFInd；
 * **外接显示器：**
-    * 开机后外接需要插拔才显示的，在启动参数加上agdpmod=vit9696,pikera；
+    * 开机后外接需要插拔才显示/休眠唤醒黑屏，在启动参数加上agdpmod=vit9696,pikera igfxonln=1；
 * **开启不同分辨率：**
     * https://github.com/xzhih/one-key-hidpi
 * **Surface Book:**
